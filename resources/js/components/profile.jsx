@@ -2,7 +2,7 @@ export default function Profile() {
     return (
         
         <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 bg-gray-800 rounded-md min-h-32 max-h-32">
-        <img class="mx-auto block h-24 w-24 rounded-full sm:mx-0 sm:shrink-0" src="/storage/testprof.jpeg" alt="" />
+        <img class="mx-auto block h-24 w-24 rounded-full sm:mx-0 sm:shrink-0" src="/images/testprof.jpeg" alt="" />
 
         <div class="space-y-2 text-center sm:text-left">
           <div class="space-y-0.5">

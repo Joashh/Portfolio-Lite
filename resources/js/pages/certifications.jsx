@@ -33,7 +33,7 @@ export default function Certifications() {
                                     <div className="bg-gray-900 rounded-2xl max-h-[calc(90vh-200px)] flex justify-center items-center">
                                         <img
                                             className="object-cover max-h-[calc(90vh-200px)]"
-                                            src="storage/cert1.png"
+                                            src="images/cert1.png"
                                             alt="certificate 1"
                                         />
                                     </div>
@@ -45,7 +45,7 @@ export default function Certifications() {
                                         <span className="text-3xl font-semibold text-indigo-600">
                                             <img
                                                 className="object-cover max-h-[calc(90vh-200px)]"
-                                                src="storage/cert2.png"
+                                                src="images/cert2.png"
                                                 alt="certificate 1"
                                             />
                                         </span>
@@ -58,7 +58,7 @@ export default function Certifications() {
                                         <span className="text-3xl font-semibold text-indigo-600">
                                             <img
                                                 className="object-cover max-h-[calc(90vh-200px)]"
-                                                src="storage/cert3.png"
+                                                src="images/cert3.png"
                                                 alt="certificate 1"
                                             />
                                         </span>
@@ -69,7 +69,7 @@ export default function Certifications() {
                                         <span className="text-3xl font-semibold text-indigo-600">
                                             <img
                                                 className="object-cover max-h-[calc(90vh-200px)]"
-                                                src="storage/cert4.png"
+                                                src="images/cert4.png"
                                                 alt="certificate 1"
                                             />
                                         </span>
@@ -80,7 +80,7 @@ export default function Certifications() {
                                         <span className="text-3xl font-semibold text-indigo-600">
                                             <img
                                                 className="object-cover max-h-[calc(90vh-200px)]"
-                                                src="storage/cert5.png"
+                                                src="images/cert5.png"
                                                 alt="certificate 1"
                                             />
                                         </span>
@@ -91,7 +91,7 @@ export default function Certifications() {
                                         <span className="text-3xl font-semibold text-indigo-600">
                                             <img
                                                 className="object-cover max-h-[calc(90vh-200px)]"
-                                                src="storage/cert6.png"
+                                                src="images/cert6.png"
                                                 alt="certificate 1"
                                             />
                                         </span>
@@ -116,21 +116,21 @@ export default function Certifications() {
                     <div className="w-auto pt-8 pl-4">
                         <div className='flex pl-4'>
 
-                            <img class="h-40 rounded-lg " src="storage/japan.jpg" alt="image description" />
+                            <img class="h-40 rounded-lg " src="images/japan.jpg" alt="image description" />
                             <h1 className='font-bold pl-6 '>Best Presenter in Research Congress
                                 <p className='font-light text-justify pt-1 w-60 text-sm'>Julius received the Best Presenter award among the Computer Science students who participated during college days. </p>
                             </h1>
                         </div>
                         <div className='flex pl-4 pt-4'>
 
-                            <img className="h-40 min-w-60 rounded-lg " src="storage/cert7.png" alt="image description" />
+                            <img className="h-40 min-w-60 rounded-lg " src="images/cert7.png" alt="image description" />
                             <h1 className='font-bold pl-6  '>First Copyrighted Mobile Application Developed In-House
                                 <p className='font-light text-justify pt-1 w-60 text-sm'>In their third year of college, User's group developed a mobile app for kids that measures their abilities and skills. The app was patented or copyrighted. </p>
                             </h1>
                         </div>
                         <div className='flex pl-4 pt-4'>
 
-                            <img class="h-40 rounded-lg " src="storage/japan.jpg" alt="image description" />
+                            <img class="h-40 rounded-lg " src="images/japan.jpg" alt="image description" />
                             <h1 className='font-bold pl-6 '>Best Presenter in Research Congress
                                 <p className='font-light text-justify pt-1 w-60 text-sm'>Julius received the Best Presenter award among the Computer Science students who participated during college days. </p>
                             </h1>

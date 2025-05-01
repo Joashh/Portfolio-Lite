@@ -9,8 +9,8 @@ export default function Showcase() {
                         {/* Image on the right */}
                         <img
                             className="rounded-lg w-100 h-100 object-cover"
-                            src="/storage/wallpaper.png"
-                            alt="Showcase"
+                            src="/images/wallpaper.png"
+                            alt="intern"
                         />
 
                         {/* Description on the left */}
@@ -43,8 +43,8 @@ export default function Showcase() {
                         {/* Image on the right */}
                         <img
                             className="rounded-lg w-100 h-100 object-cover"
-                            src="/storage/japan.jpg"
-                            alt="Showcase"
+                            src="/images/japan.jpg"
+                            alt="school"
                         />
 
                         {/* Description on the left */}
@@ -75,8 +75,8 @@ export default function Showcase() {
                         {/* Image on the right */}
                         <img
                             className="rounded-lg w-100 h-100 object-cover"
-                            src="/storage/japan.jpg"
-                            alt="Showcase"
+                            src="/images/japan.jpg"
+                            alt="school"
                         />
 
                         {/* Description on the left */}
