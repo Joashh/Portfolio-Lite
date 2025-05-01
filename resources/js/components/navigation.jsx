@@ -3,12 +3,14 @@ import { Link } from '@inertiajs/react';
 import React, { useState } from 'react';
 import Certifications from '../pages/certifications';
 import Showcase from "./showcase";
-
+import Tracer from '../components/tracer';
 
 export default function Navigation({goToSlide}) {
    
+    const [currentSlide, setCurrentSlide] = useState(0);
 
     return (
+        <>
         <div>
             <nav className="bg-gray-800 p-4 rounded-md max-w-20">
                 <div className="container mx-auto flex flex-col items-center py-4">
@@ -19,13 +21,13 @@ export default function Navigation({goToSlide}) {
                     <ul className="flex flex-col space-y-8 cursor-pointer">
                         <li className="flex items-center">
                             
-                            <a href="#"  onClick={() => goToSlide('showcase')}>
-                            <ComputerDesktopIcon className="h-7 w-7 text-white" />
+                            <a href="#"  onClick={() =>{ goToSlide('showcase'); }}>
+                            <ComputerDesktopIcon className="h-7 w-7 text-white hover:text-blue-300" />
                             </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
-                            <a href="#" onClick={() => goToSlide('certifications')}>
-                                <DocumentIcon className="h-7 w-7 text-white hover:text-black" />
+                            <a href="#" onClick={() => {goToSlide('certifications'); }}>
+                                <DocumentIcon className="h-7 w-7 text-white hover:text-blue-300" />
                             </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
@@ -40,5 +42,7 @@ export default function Navigation({goToSlide}) {
                 </div>
             </nav>
         </div>
+       
+        </>
     );
 }

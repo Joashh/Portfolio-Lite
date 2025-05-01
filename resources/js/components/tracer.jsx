@@ -1,14 +1,14 @@
-export default function Tracer() {
+export default function Tracer({ activeSlide }) {
     return (
-        <div className="flex justify-center space-x-3 ">
-            {/* Bullet 1 */}
-            <button className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-all"></button>
-            {/* Bullet 2 */}
-            <button className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-all"></button>
-            {/* Bullet 3 */}
-            <button className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-all"></button>
-            {/* Bullet 4 */}
-            <button className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-500 transition-all"></button>
+        <div className="flex justify-center space-x-3">
+            {[0, 1, 2, 3].map((index) => (
+                <button
+                    key={index}
+                    className={`w-3 h-3 rounded-full transition-all ${
+                        activeSlide === index ? 'bg-blue-500' : 'bg-gray-300 hover:bg-gray-500'
+                    }`}
+                ></button>
+            ))}
         </div>
     );
 }

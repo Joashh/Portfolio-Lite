@@ -7,7 +7,7 @@ export default function Quotation() {
         <div className="flex flex-row  items-center width-full gap-4">
             {/* Column 1: Text */}
             <div className="flex-1 pr-4 min-h-32 max-h-32 bg-gray-800 rounded-md ">
-                <div className='text-xl text-blue-200 text-left leading-relaxed pl-4 pt-4 font-semibold md:text-sm lg:text-2xl 2xl:pt-1.5'>
+                <div className='text-md text-blue-200 text-left leading-relaxed pl-4 pt-4 font-semibold  2xl:xl'>
                 <TypeAnimation
                     sequence={[
                         "Hi! I'm a developer and programmer with a passion for Intelligent Systems. I've had the privilege of working on some impactful projects and would love to share my achievements so far.",
@@ -15,7 +15,7 @@ export default function Quotation() {
                     ]}
                     speed={50}
                     wrapper="h1"
-                    className="text-xl text-blue-200 text-left leading-relaxed font-semibold md:text-sm lg:text-2xl"
+                
                     repeat={0}
                 />
                 </div>
