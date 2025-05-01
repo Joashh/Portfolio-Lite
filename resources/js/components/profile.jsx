@@ -9,9 +9,9 @@ export default function Profile() {
             <p class="text-lg font-semibold text-white">Julius Asher P. Austria</p>
             <p class="font-medium text-gray-500">Computer Science</p>
           </div>
-          <button class="border-purple-200 text-blue-400 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700 ...">
+          <a href="https://github.com/Joashh" class="border-purple-200 text-blue-400 hover:border-transparent  hover:text-white ...">
             Github
-          </button>
+          </a>
         </div>
       </div>
       

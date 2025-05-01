@@ -4,8 +4,8 @@ export default function Quotation() {
     return (
         <div className="flex flex-row  items-center width-full gap-4">
             {/* Column 1: Text */}
-            <div className="flex-1 pr-4 min-h-32 max-h-32 bg-gray-800 rounded-md">
-                <h1 className="text-xl text-white text-left leading-relaxed pl-4 pt-4 font-semibold ">
+            <div className="flex-1 pr-4 min-h-32 max-h-32 bg-gray-800 rounded-md ">
+                <h1 className="text-xl text-white text-left leading-relaxed pl-4 pt-4 font-semibold md:text-sm lg:text-lg">
                     "Innovation is not the result of a sudden idea, but the courage to 
                     transform challenges into opportunities and the vision to 
                     create the future from the present."
