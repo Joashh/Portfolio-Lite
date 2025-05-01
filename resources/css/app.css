@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @source "../views";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@layer theme, base, components, utilities;
 
 @media (prefers-color-scheme: dark) {
     /* You can add default dark mode styles here */
@@ -52,4 +53,11 @@
       }
     }
   }
+}
+
+@theme {
+  
+  --breakpoint-2xl: 1700px;
+  --breakpoint-3xl: 1700px;
+ 
 }

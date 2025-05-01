@@ -1,16 +1,28 @@
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { TypeAnimation } from 'react-type-animation';
+
 
 export default function Quotation() {
     return (
         <div className="flex flex-row  items-center width-full gap-4">
             {/* Column 1: Text */}
             <div className="flex-1 pr-4 min-h-32 max-h-32 bg-gray-800 rounded-md ">
-                <h1 className="text-xl text-white text-left leading-relaxed pl-4 pt-4 font-semibold md:text-sm lg:text-lg">
-                    "Innovation is not the result of a sudden idea, but the courage to 
-                    transform challenges into opportunities and the vision to 
-                    create the future from the present."
-                </h1>
-                <p className='text-gray-500 pl-4 pb-4 pt-2'>- Yours Truly</p>
+                <div className='text-xl text-blue-200 text-left leading-relaxed pl-4 pt-4 font-semibold md:text-sm lg:text-2xl 2xl:pt-1.5'>
+                <TypeAnimation
+                    sequence={[
+                        "Hi! I'm a developer and programmer with a passion for Intelligent Systems. I've had the privilege of working on some impactful projects and would love to share my achievements so far.",
+                        1000, // optional pause at end
+                    ]}
+                    speed={50}
+                    wrapper="h1"
+                    className="text-xl text-blue-200 text-left leading-relaxed font-semibold md:text-sm lg:text-2xl"
+                    repeat={0}
+                />
+                </div>
+                <p className='text-gray-500 pl-4 pb-4 pt-2 2xl:text-xl 2xl:pt-0'>My mission is to make a positive
+                    impact on the world through
+                    innovative computer science
+                    projects.</p>
             </div>
 
             {/* Column 2: Icons */}
