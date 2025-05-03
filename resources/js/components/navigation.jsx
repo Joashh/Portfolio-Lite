@@ -1,13 +1,8 @@
 import { HomeIcon, InformationCircleIcon, BoltIcon, ComputerDesktopIcon, DocumentIcon } from '@heroicons/react/24/solid';
-import { Link } from '@inertiajs/react';
 import React, { useState } from 'react';
-import Certifications from '../pages/certifications';
-import Showcase from "./showcase";
-import Tracer from '../components/tracer';
 
 export default function Navigation({goToSlide}) {
    
-    const [currentSlide, setCurrentSlide] = useState(0);
 
     return (
         <>
@@ -31,8 +26,9 @@ export default function Navigation({goToSlide}) {
                             </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
-                            <BoltIcon className="h-7 w-7 text-white" />
-                            <a href="#" className="text-gray-300 hover:text-white"></a>
+                        <a href="#" onClick={() => {goToSlide('skills'); }}>
+                            <BoltIcon className="h-7 w-7 text-white hover:text-blue-300" />
+                            </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
                             <InformationCircleIcon className="h-7 w-7 text-white" />

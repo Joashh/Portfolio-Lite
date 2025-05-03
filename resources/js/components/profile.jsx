@@ -7,7 +7,7 @@ export default function Profile() {
         <div class="space-y-2 text-center sm:text-left">
           <div class="space-y-0.5">
             <p class="text-lg font-semibold text-white">Julius Asher P. Austria</p>
-            <p class="font-medium text-gray-500">Computer Science Degree</p>
+            <p class="font-medium text-gray-500 text-md">Computer Science Degree</p>
           </div>
           <a href="https://github.com/Joashh" class="border-purple-200 text-blue-400 hover:border-transparent  hover:text-white ...">
             Github

@@ -8,4 +8,4 @@ Route::get('/', function () {
     return inertia('main');
 });
 Route::get('/certificates', fn () => Inertia::render('certifications'));
-Route::get('/showcase', fn () => Inertia::render('showcase'));
+Route::get('/skills', fn () => Inertia::render('skills'));
