@@ -1,4 +1,4 @@
-import { HomeIcon, InformationCircleIcon, BoltIcon, ComputerDesktopIcon, DocumentIcon } from '@heroicons/react/24/solid';
+import { HomeIcon, InformationCircleIcon, BoltIcon, ComputerDesktopIcon, DocumentIcon, BuildingOffice2Icon } from '@heroicons/react/24/solid';
 import React, { useState } from 'react';
 
 export default function Navigation({goToSlide}) {
@@ -17,7 +17,7 @@ export default function Navigation({goToSlide}) {
                         <li className="flex items-center">
                             
                             <a href="#"  onClick={() =>{ goToSlide('showcase'); }}>
-                            <ComputerDesktopIcon className="h-7 w-7 text-white hover:text-blue-300" />
+                            <BuildingOffice2Icon className="h-7 w-7 text-white hover:text-blue-300" />
                             </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
@@ -31,7 +31,7 @@ export default function Navigation({goToSlide}) {
                             </a>
                         </li>
                         <li className="flex items-center cursor-pointer">
-                            <InformationCircleIcon className="h-7 w-7 text-white" />
+                            <ComputerDesktopIcon className="h-7 w-7 text-white" />
                             <a href="#" className="text-gray-300 hover:text-white"></a>
                         </li>
                     </ul>
