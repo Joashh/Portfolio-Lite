@@ -23,7 +23,7 @@ export default function Certifications() {
 
         <div className="w-full bg-gray-800 rounded-md max-h-full ">
           
-                <div className="bg-gray-800 p-4 space-y-2 h-[calc(100vh-200px)] ">
+                <div className="bg-gray-800 p-4 space-y-2 h-full ">
                     <div className='flex gap-2 2xl:h-full 2xl:px-4'>
                         <div className="w-225 2xl:w-1/2      ">
 
@@ -132,7 +132,7 @@ export default function Certifications() {
                             <div className='flex pl-4'>
 
                                 <img class=" cursor-pointer h-40 rounded-lg 2xl:h-50" src="images/japan.jpg" alt="image description" onClick={() => handleImageClick("images/japan.jpg")} />
-                                <h1 className='font-bold pl-6 '>Best Presenter in Research Congress
+                                <h1 className='font-bold pl-6 '>Best Presenter in Research Congress 2025
                                     <p className='font-light text-justify pt-1 w-60 text-sm 2xl:w-90'>Julius received the Best Presenter award among the Computer Science students who participated during college days. </p>
                                 </h1>
                             </div>
@@ -140,7 +140,7 @@ export default function Certifications() {
 
                                 <img className="cursor-pointer h-40 min-w-60 rounded-lg 2xl:h-50 2xl:w-75" src="images/cert7.png" alt="image description" onClick={() => handleImageClick("images/cert7.png")}
                                 />
-                                <h1 className='font-bold pl-6  '>First Copyrighted Mobile Application Developed In-House
+                                <h1 className='font-bold pl-6  '>First Copyrighted Mobile Application Developed In-House 2024
                                     <p className='font-light text-justify pt-1 w-60 text-sm 2xl:w-90'>In their third year of college, User's group developed a mobile app for kids that measures their abilities and skills. The app was patented or copyrighted. </p>
                                 </h1>
                             </div>
