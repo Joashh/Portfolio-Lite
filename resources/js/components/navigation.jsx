@@ -3,12 +3,21 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 
-export default function Navigation({ goToSlide}) {
+export default function Navigation({ goToSlide, currentProject, setCurrentProject}) {
     const [isVisible, setIsVisible] = useState(false);
     const toggleVisibility = (value) => {
         setIsVisible(value);
     }
-    
+
+    const handleNext = () => {
+    setCurrentProject((prev) => prev + 1);
+  };
+
+  const handlePrev = () => {
+    setCurrentProject((prev) => Math.max(prev - 1, 0));
+  };
+
+  
    
 
     return (
@@ -25,23 +34,23 @@ export default function Navigation({ goToSlide}) {
                             <li className="flex items-center">
 
                                 <a href="#" onClick={() => { goToSlide('showcase'); toggleVisibility(false); }}>
-                                    <BuildingOffice2Icon className="h-7 w-7 text-white hover:text-blue-300" />
+                                    <BuildingOffice2Icon className="h-7 w-7 text-white hover:text-blue-300 active:text-blue-500" />
                                 </a>
                             </li>
                             <li className="flex items-center cursor-pointer">
                                 <a href="#" onClick={() => { goToSlide('certifications'); toggleVisibility(false); }}>
-                                    <DocumentIcon className="h-7 w-7 text-white hover:text-blue-300" />
+                                    <DocumentIcon className="h-7 w-7 text-white hover:text-blue-300 active:text-blue-500" />
                                 </a>
                             </li>
                             <li className="flex items-center cursor-pointer">
                                 <a href="#" onClick={() => { goToSlide('skills'); toggleVisibility(false); }}>
-                                    <BoltIcon className="h-7 w-7 text-white hover:text-blue-300" />
+                                    <BoltIcon className="h-7 w-7 text-white hover:text-blue-300 active:text-blue-500" />
                                 </a>
                             </li>
                             <li className="flex items-center cursor-pointer">
 
-                                <a href="#" onClick={() => { goToSlide('projects'); toggleVisibility(true); }} className="text-gray-300 hover:text-white">
-                                    <ComputerDesktopIcon className="h-7 w-7 text-white" />
+                                <a href="#" onClick={() => { goToSlide('projects'); toggleVisibility(true); }} className="text-gray-300 ">
+                                    <ComputerDesktopIcon className="h-7 w-7 text-white hover:text-blue-300 active:text-blue-500" />
                                 </a>
                             </li>
                         </ul>
@@ -58,17 +67,15 @@ export default function Navigation({ goToSlide}) {
 
                             <button
                                 className="bg-gray-800 w-12 h-12 rounded-full shadow-lg hover:bg-gray-700 active:bg-gray-900 flex items-center justify-center"
-                                onClick={() => {
-                                    goToSlide('home');
-                                }}
+                                onClick={handlePrev}
+                                disabled={currentProject === 0}
                             >
                                 <ArrowUpCircleIcon className="h-8 w-8 text-white hover:text-blue-300" />
                             </button>
                             <button
                                 className="bg-gray-800 w-12 h-12 rounded-full shadow-lg hover:bg-gray-700 active:bg-gray-900 flex items-center justify-center"
-                                onClick={() => {
-                                    goToSlide('home');
-                                }}
+                               onClick={handleNext}
+                               disabled={currentProject === 2}
                             >
                                 <ArrowDownCircleIcon className="h-8 w-8 text-white hover:text-blue-300" />
                             </button>

@@ -18,10 +18,8 @@ export default function Main() {
         if (slide === 'projects') setCurrentSlide(3);
     };
 
-     const nextslide = () =>
-    {
-        setCurrentProject(nextslide + 1)
-    };
+
+    const [currentProject, setCurrentProject] = useState(0);
 
     return (
         <>
@@ -33,7 +31,7 @@ export default function Main() {
 
             <div className="w-full flex gap-4 flex-1 min-h-0 h-full">
                 <div className="w-16 flex-shrink-0">
-                    <Navigation goToSlide={goToSlide} nextslide={nextslide}/>
+                    <Navigation goToSlide={goToSlide} currentProject={currentProject} setCurrentProject={setCurrentProject}/>
                 </div>
 
                
@@ -77,7 +75,7 @@ export default function Main() {
                             exit={{ opacity: 0, scale: 0.95 }}
                             transition={{ duration: 0.3 }}
                         >
-                        <Projects />
+                        <Projects currentProject={currentProject} setCurrentProject={setCurrentProject}/>
                         </motion.div>
                     }
                 </div>
