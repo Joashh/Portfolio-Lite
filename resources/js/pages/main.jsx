@@ -29,8 +29,8 @@ export default function Main() {
             <Tracer activeSlide={currentSlide} />
             </div>
 
-            <div className="w-full flex gap-4 flex-1 min-h-0 h-full">
-                <div className="w-16 flex-shrink-0">
+            <div className="w-full flex gap-4 flex-1 min-h-0 h-full max-sm:flex-col ">
+                <div className="flex-shrink-0 ">
                     <Navigation goToSlide={goToSlide} currentProject={currentProject} setCurrentProject={setCurrentProject}/>
                 </div>
 

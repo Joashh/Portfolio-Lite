@@ -8,7 +8,7 @@ export default function Showcase() {
                     <div className="flex items-center gap-4">
                         {/* Image on the right */}
                         <img
-                            className="rounded-lg w-100 h-100 object-cover"
+                            className="rounded-lg min-w-100 w-100 h-100 object-cover"
                             src="/images/wallpaper.png"
                             alt="intern"
                         />
@@ -42,7 +42,7 @@ export default function Showcase() {
                     <div className="flex items-center gap-4 pb-4">
                         {/* Image on the right */}
                         <img
-                            className="rounded-lg w-100 h-100 object-cover"
+                            className="rounded-lg w-100 min-w-100 h-100 object-cover"
                             src="/images/japan.jpg"
                             alt="school"
                         />
@@ -70,7 +70,7 @@ export default function Showcase() {
                 </div>
 
                 <div id="ITEM 2">
-                    <div className="flex items-center gap-4 pb-4">
+                    <div className="flex items-center min-w-100 gap-4 pb-4">
                         {/* Image on the right */}
                         <img
                             className="rounded-lg w-100 h-100 object-cover"

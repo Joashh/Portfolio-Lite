@@ -12,15 +12,15 @@ export default function Projects({ currentProject, setCurrentProject }) {
         },
         {
             image: "images/cpaf.jpg",
-            title: "Project B",
-            description: "Another project description here.",
-            githubLink: "https://github.com/example/project-b",
+            title: "Intranet System College of Public Affairs and Development - UPLB",
+            description: "I created a web-based intranet system using Filament in Laravel. The system is designed to manage the college's documents such as researchers, training organizes, awards, and other important documents. The system is designed to be user-friendly and efficient, allowing users to easily access and manage their documents.",
+            githubLink: "https://github.com/Joashh/laravel-cpaf",
         },
         {
-            image: "images/dysg.png",
-            title: "Project C",
-            description: "Yet another project description.",
-            githubLink: "https://github.com/example/project-c",
+            image: "images/robot.jpg",
+            title: "Robot Line Follower Arduino",
+            description: "I developed a robot that can follow a line using Arduino. The robot uses a machine learning technique that classify its movement. The project was created using Arduino IDE and C++ programming language with the help of ESP Wifi Module. The robot is designed to be efficient and accurate, allowing it to follow the line with minimal deviation.",
+            githubLink: "https://github.com/Joashh/-Robot-Line-Follower?tab=readme-ov-file",
         },
     ];
 
@@ -45,7 +45,7 @@ export default function Projects({ currentProject, setCurrentProject }) {
                         initial="initial"
                         animate="animate"
                         exit="exit"
-                        transition={{ duration: 0.4, ease: "easeOut" }}
+                        transition={{ duration: 0.2, ease: "easeOut" }}
                         className="relative w-full h-full"
                     >
                         <img

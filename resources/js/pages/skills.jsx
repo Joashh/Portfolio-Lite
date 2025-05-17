@@ -11,7 +11,7 @@ export default function Skills() {
                     <div className="flex gap-6 p-6 pb-2 pt-3 2xl:p-3 ">
 
 
-                        <div className="bg-teal-700  rounded-md transition-colors duration-300   hover:bg-transparent hover:border-2 max-w-120 max-h-80  shadow-lg 2xl:min-w-150 2xl:min-h-80">
+                        <div className="bg-teal-700  min-w-100 rounded-md transition-colors duration-300   hover:bg-transparent hover:border-2 max-w-120 max-h-80  shadow-lg 2xl:min-w-150 2xl:min-h-80">
 
                             <div className="flex">
                                 <div className='w-1/2 pl-4 max-h-50 pt-4 2xl:p-4 '>
@@ -41,7 +41,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-teal-700  transition-colors duration-300   hover:bg-transparent hover:border-2  rounded-md max-w-120 max-h-100 min-h-60 shadow-lg 2xl:min-w-150 2xl:min-h-80">
+                        <div className="bg-teal-700  transition-colors duration-300 min-w-100  hover:bg-transparent hover:border-2  rounded-md max-w-120 max-h-100 min-h-60 shadow-lg 2xl:min-w-150 2xl:min-h-80">
                             <div className="flex ">
                             
                                 <div className='pt-5 w-1/2'>
@@ -62,7 +62,7 @@ export default function Skills() {
                             </div>
                         </div>
 
-                        <div className="bg-teal-700  transition-colors duration-300   hover:bg-transparent hover:border-1 rounded-md max-w-120 max-h-100 min-h-60 shadow-lg 2xl:min-w-150 2xl:min-h-80">
+                        <div className="bg-teal-700  transition-colors duration-300   hover:bg-transparent hover:border-1 rounded-md max-w-120 min-w-100 max-h-100 min-h-60 shadow-lg 2xl:min-w-150 2xl:min-h-80">
                             <div className='flex'>
 
                                 <div className='w-1/2 2xl:pt-6'>
@@ -87,7 +87,7 @@ export default function Skills() {
                     </div>
 
                     <div className="flex gap-x-6 p-6 pt-2 2xl:p-3 max-h-65  ">
-                        <div className="bg-yellow-700  transition-colors duration-300   hover:bg-transparent hover:border-2 rounded-md max-w-120 max-h-100 min-h-50 shadow-lg min-w-115 2xl:min-w-150 2xl:min-h-80 2xl:max-h-80">
+                        <div className="bg-yellow-700  transition-colors duration-300   hover:bg-transparent hover:border-2 rounded-md max-w-115 max-h-100 min-h-50 shadow-lg min-w-115 2xl:min-w-150 2xl:min-h-80 2xl:max-h-80">
                             <div className="flex max-h-60">
                                 <div className="w-1/2 flex items-center justify-center ">
                                     <DotLottieReact
@@ -110,7 +110,7 @@ export default function Skills() {
                             </div>
 
                         </div>
-                        <div className="bg-yellow-700  transition-colors duration-300   hover:bg-transparent hover:border-2 min-w-115 rounded-md max-w-120 max-h-100 shadow-lg 2xl:min-w-150 2xl:min-h-80">
+                        <div className="bg-yellow-700  transition-colors duration-300   hover:bg-transparent hover:border-2 min-w-115 rounded-md max-w-115 max-h-100 shadow-lg 2xl:min-w-150 2xl:min-h-80">
 
                             <div className='flex'>
                                 <div className=' flex flex-col justify-center w-1/2 '>
@@ -132,7 +132,7 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-yellow-700  transition-colors duration-300   hover:bg-transparent hover:border-2 min-w-115 rounded-md max-w-120 max-h-100 shadow-lg 2xl:min-w-150 2xl:min-h-80">
+                        <div className="bg-yellow-700  transition-colors duration-300  hover:bg-transparent hover:border-2 min-w-115 rounded-md max-w-115 max-h-100 shadow-lg 2xl:min-w-150 2xl:min-h-80">
 
 
                             <div className='flex'>
