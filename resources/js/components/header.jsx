@@ -5,7 +5,7 @@ export default function Header() {
     return(
         <>
         <div className='p-4 pb-0 flex gap-4 max-sm:flex-col'>
-            <div className='flex-1 max-w-screen '>
+            <div className='flex-1 max-w-100'>
        <Profile />
        </div>
 

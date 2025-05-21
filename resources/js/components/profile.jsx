@@ -11,13 +11,13 @@ export default function Profile() {
     <>
       <div
         
-        className={`transition-all duration-500 ease-in-out  
+        className={`transition-all duration-500 ease-in-out w-full
           ${isExpanded ? "fixed inset-0 z-50 flex items-center justify-center bg-gray-900" : "min-h-32 max-h-32 bg-gray-800 rounded-md p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 flex flex-col gap-2 overflow-hidden max-sm:max-h-200 max-sm:p-5  max-sm:justify-center "}
         `}
       >
 
         {!isExpanded ? (
-          <div className="max-sm:flex-col flex ">
+          <div className="max-sm:flex-col flex max-w-100 ">
             <img
               className="mx-auto block h-24 w-24 rounded-full sm:mx-0 sm:shrink-0 cursor-pointer max-sm:items-center"
               src="/images/testprof.jpeg"
